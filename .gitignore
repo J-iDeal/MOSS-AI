@@ -22,6 +22,9 @@ server/data/*.db-wal
 server/data/uploads/
 server/data/tessdata/
 
+# 本地调试页面（含硬编码 Key 的历史版本，不纳入版本管理）
+web.html
+
 # 本地截图 / 系统文件 / 编辑器配置
 .screenshots/
 .DS_Store

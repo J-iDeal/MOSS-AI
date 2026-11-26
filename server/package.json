@@ -1,0 +1,23 @@
+{
+  "name": "moss-ai-server",
+  "version": "0.1.0",
+  "description": "MOSS AI Web 后端服务 — 统一 AI 代理 + 会话持久化",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js",
+    "init-db": "node src/db.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.5.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-to-img": "^7.0.2",
+    "tesseract.js": "^7.0.0"
+  }
+}

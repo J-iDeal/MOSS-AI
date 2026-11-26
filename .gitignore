@@ -1,0 +1,30 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+
+# 日志与运行时进程文件
+logs/
+*.log
+*.pid
+
+# 环境变量（保留示例文件）
+.env
+.env.*
+!.env.example
+
+# 运行时数据
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+server/data/uploads/
+server/data/tessdata/
+
+# 本地截图 / 系统文件 / 编辑器配置
+.screenshots/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

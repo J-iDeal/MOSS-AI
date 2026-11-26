@@ -1,0 +1,8 @@
+node_modules/
+.env
+data/*.db
+data/*.db-shm
+data/*.db-wal
+# 上传的图片与 OCR 语言包缓存属于运行时数据
+data/uploads/
+data/tessdata/
